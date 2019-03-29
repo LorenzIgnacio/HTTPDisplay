@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/main_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Docu Id"/>
+
+
+    <TextView
+        android:id="@+id/main_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status"/>
+
+    <TextView
+        android:id="@+id/main_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"/>
+
+    <TextView
+        android:id="@+id/main_ref"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reference Number"/>
+
+
+    <TextView
+        android:id="@+id/main_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Final Action Date"/>
+
+    <TextView
+        android:id="@+id/main_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject"/>
+</LinearLayout>
